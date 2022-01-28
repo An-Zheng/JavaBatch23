@@ -63,6 +63,7 @@ public class Main {
 //                return o1.age>o2.age?1:-1;
 //            }
 //        });
+        assert false;
         TreeSet<Student> treeSet = new TreeSet<>((o1,o2) -> {
                             if (o1.age == o2.age)
                     return 0;
@@ -76,5 +77,7 @@ public class Main {
         {
             System.out.println(stuD.age);
         }
+
+
     }
 }
