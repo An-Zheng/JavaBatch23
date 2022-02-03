@@ -1,4 +1,4 @@
-package LMSAssignment;
+package LMSAssignment.Assignment1;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ public class Main {
 //                }
 //            }
 //        }
-          int[] arr1 = {5,6,7,8,9};
+/*          int[] arr1 = {5,6,7,8,9};
           int[] arr2 = {1,3,5,8,10};
           int[] sum = mergeIntArr(arr1,arr2);
 
@@ -35,7 +35,8 @@ public class Main {
               System.out.println(sum[i]);
           }
 
-        System.out.println(findTheSecondLarge(sum));
+        System.out.println(findTheSecondLarge(sum));*/
+
     }
 
     public static int doSomething(int x)
