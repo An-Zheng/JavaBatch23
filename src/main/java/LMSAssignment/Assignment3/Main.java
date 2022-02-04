@@ -27,14 +27,21 @@ public class Main {
         System.out.println(cir.compareTo(rec));
         System.out.println(rec.compareTo(cir));
 
-        TreeSet<Shape> tr = new TreeSet<>();
-        tr.add(rec);
-        tr.add(cir);
 
-        for (Shape s : tr)
-        {
-            System.out.println(s.getArea());
+        try {
+            TreeSet<Shape> tr = new TreeSet<>();
+            tr.add(rec);
+            tr.add(cir);
+            for (Shape s : tr)
+            {
+                System.out.println(s.getArea());
+            }
         }
+        finally {
+            System.out.println("finally");
+        }
+
+
     }
     public static  List<Integer> doS(List<Integer> list, Map<String,String> map)
     {
